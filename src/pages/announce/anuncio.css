@@ -77,9 +77,32 @@ body {
     border-bottom-right-radius: 15px;
 }
 
+.perfil {
+    display: flex;
+    width: 10%;
+    height: 10%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 15px;
+    border: 1px solid #ECECEC;
+    position: relative;
+    border-radius: 20px;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+.perfil:hover {
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+}
+
 .nav {
     display: flex;
-
+    justify-content: space-between;
 }
 
 .search {
@@ -87,8 +110,6 @@ body {
     gap: 5px;
     color: #222;
     font-size: 1rem;
+    justify-content: space-between;
 }
 
-.logo img {
-    grid-column: 1 / 3;
-}
