@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+body {
+  font-family: "Robot", sans-serif;
+}
+
+a, h1, p{
+  color: #222222;
+  font-size: 14px;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+header nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  width: 480px;
+}
+
+nav ul li{
+  padding: 10px;
+}
+
+
+.hospedes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  font-weight: 500;
+  color: #6A6A6A;
+}
+
+.anuncie-header{
+  display: flex;
+}
