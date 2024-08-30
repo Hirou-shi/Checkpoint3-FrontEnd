@@ -216,6 +216,7 @@ nav ul li{
 
 .anfitriao{
   display: flex;
+  margin-top: 25px;
   align-items: center;
   width: 300px;
   gap: 20px;
