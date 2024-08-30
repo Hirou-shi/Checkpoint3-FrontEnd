@@ -30,12 +30,14 @@ header nav{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.5rem;
+  padding: 0.2rem;
   gap: 2rem;
+  font-size: 12px;
 }
 
 nav ul {
   display: flex;
+  justify-content: space-around;
   list-style: none;
   background-color: white;
   border-radius: 50px;
@@ -57,7 +59,6 @@ nav ul li{
   align-items: center;
   justify-content: center;
   gap: 1.5em;
-  padding-left: 0.7em ;
   font-weight: 500;
   cursor: pointer;
 }
@@ -74,6 +75,7 @@ nav ul li{
   width: 250px;
   cursor: pointer;
 }
+
 
 .anuncie-header a{
   text-decoration: dotted;
@@ -139,8 +141,9 @@ nav ul li{
 }
 
 .btn a {
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: #222;
+  font-weight: bold;
 }
 
 .photos {
@@ -259,6 +262,7 @@ nav ul li{
   display: flex;
   width: 700px;
   gap: 35px;
+  font-weight: bold;
 }
 
 .titulo-infos-airbnb{
@@ -334,4 +338,123 @@ span{
   width: 250px;
   border-radius: 10px;
   cursor: not-allowed;
+}
+
+.recepcao-anfitriao{
+  display: flex;
+  width: 1080px;
+  justify-content: start;
+  margin-top: 96px;
+  flex-direction: column;
+}
+
+.recepcao-anfitriao-card{
+  padding: 30px;
+}
+
+.descricao-anfitriao{
+  padding: 32px 0px 32px 0px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 25px;
+  font-size: 18px;
+}
+
+.descricao-anfitriao .estudo-anfitriao, .trabalho-anfitriao, .skill-anfitriao, .hobby-anfitriao, .pets-anfitriao{
+  display: flex;
+  width: 700px;
+  gap: 35px;
+  width: 470px;
+}
+
+.descricao-anfitriao p{
+  color: #222222;
+}
+
+.apresentacao-anfitriao{
+  width: 720px;
+  display: flex;
+}
+
+.avaliacao-produto{
+  padding-top: 32px;
+}
+
+.img-av-produto, .texto-av-produto{
+  display: flex;
+  width: 400px;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 26px;
+  align-items: center;
+
+}
+
+.texto-av-produto p{
+  color: #222;
+}
+
+.comentarios-produto{
+  margin-top: 32px;
+}
+
+.img-comentario img{
+  width: 55px;
+  border-radius: 50px;
+}
+
+.header-comment{
+  display: flex;
+  gap: 15px;
+}
+
+.nome-origem-comentario h5{
+  font-size: 21px;
+}
+
+.nome-origem-comentario{
+  font-size: 20px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+}
+
+.nome-origem-comentario p{
+  width: 300px;
+  margin-top: 5px;
+}
+
+.avaliacao-comentario{
+  display: flex;
+  gap: 1px;
+  align-items: center;
+  padding-left: 2px;
+}
+
+.conteudo-av{
+  display: flex;
+  width: 400px;
+  align-items: center;
+  gap: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.conteudo-av h2{
+  font-size: 16px;
+}
+
+.texto-comentario p{
+  width: 470px;
+  color: #222222;
+  font-size: 18px;
+}
+
+.comentarios-produto{
+  display: flex;
+  justify-content: space-between;
+  height: 40vh;
 }
