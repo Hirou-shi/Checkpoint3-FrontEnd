@@ -8,12 +8,16 @@ body {
 }
 
 
-a, h1, p{
+a, h1{
   color: #222222;
 }
 
+p{
+  color: #6A6A6A;
+}
+
 .container{
-  width: 100%;
+  width: 1080px;
   margin: 0 auto;
 }
 
@@ -100,9 +104,8 @@ nav ul li{
   height: 33px;
 }
 
-.container-secao{
+.container-fotos{
   width: 1080px;
-  margin: 0 auto;
 }
 
 .box-title {
@@ -112,7 +115,9 @@ nav ul li{
   align-items: center;
 }
 
-
+.container-fotos{
+  width: 1080px;
+}
 
 .box-title h1{
   font-size: 1.6rem;
@@ -170,4 +175,119 @@ nav ul li{
 
 .image5 img {
   border-bottom-right-radius: 15px;
+}
+
+.secao-texto{
+  width: 1080px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+
+.container-textos{
+  width: 200px;
+  flex-direction: column;
+  align-self: start;
+  justify-content: start;
+}
+
+.titulo-produto-airbnb{
+  margin-top: 25px;
+}
+
+.titulo-produto-airbnb h1{
+  font-size: 22px;
+}
+
+.titulo-produto-airbnb p{
+  font-size: 16px;
+  margin-top: 4px;
+}
+
+.avaliacao-produto{
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  gap: 5px;
+  
+}
+
+.anfitriao{
+  display: flex;
+  align-items: center;
+  width: 300px;
+  gap: 20px;
+  padding: 32px 0px 32px 0px;
+}
+
+.anfitriao h6{
+  font-size: 16px;
+}
+
+.anfitriao p{
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.img-anfitriao img{
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+}
+
+.setores-4-img{
+  padding: 32px 0px 32px 0px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 25px;
+}
+
+.setores-4-img h1{
+  font-size: 16px;
+}
+
+.setores-4-img p{
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.setores-4-img .trofeu,.fogueira,.flor,.dancando{
+  display: flex;
+  width: 700px;
+  gap: 35px;
+}
+
+.titulo-infos-airbnb{
+  margin-top: 40px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+}
+
+.infos-airbnb{
+  margin-top: 70px;
+  font-size: 20px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+}
+
+span{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  text-align: start;
+  font-weight: bold;
+}
+
+.exibir-original{
+  font-size: 15px;
+  text-decoration: underline;
+  cursor: pointer;
 }
