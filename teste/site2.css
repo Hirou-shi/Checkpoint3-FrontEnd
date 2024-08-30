@@ -263,16 +263,21 @@ nav ul li{
 
 .titulo-infos-airbnb{
   margin-top: 40px;
-  font-size: 20px;
+  font-size: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 600px;
+  font-weight: normal;
+}
+
+.titulo-infos-airbnb p{
+  color: #222222;
 }
 
 .infos-airbnb{
   margin-top: 70px;
-  font-size: 20px;
+  font-size: 18px;
   gap: 30px;
   display: flex;
   flex-direction: column;
@@ -293,4 +298,40 @@ span{
   font-size: 15px;
   text-decoration: underline;
   cursor: pointer;
+}
+
+.infos-airbnb p{
+  color: #222222;
+}
+
+.enviar-encerrado{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding-top: 60px;
+  padding-left: 70px;
+  gap: 15px;
+
+}
+
+.box-encerrado{
+  background-color: #ffffff;
+  padding: 0.5rem;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 24px;
+}
+
+.button-enviar-pedido{
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  background-color: #b0b0b0;
+  padding: 1rem;
+  width: 250px;
+  border-radius: 10px;
+  cursor: not-allowed;
 }
